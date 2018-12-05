@@ -5,20 +5,20 @@
 </template>
 
 <script>
-import urlData from './assets/urlD.json';
+import urlData from './assets/urlD.json'
 export default {
   name: 'App',
   data () {
     return {
       msg: {
-      },
+      }
     }
   },
-  computed:{
-    urlDatas(){
-      return urlData.datas;
+  computed: {
+    urlDatas () {
+      return urlData.datas
     }
-  },
+  }
 }
 </script>
 

@@ -28,19 +28,19 @@ export default {
   methods: {
     let(){
       {
-        var a = 10;
-        let b = 1;
+        var a = 10
+        let b = 1
       }
-      console.log(a);
+      console.log(typeof a);
       try{
-        console.log(b);
+        console.log(b)
         
       }catch(e){
         console.log('b is not defined');//sojson is undefined
       }
       for (let i = 0; i < 3; i++) {
-        let i = 'abc';
-        console.log(i);
+        let i = 'abc'
+        console.log(i)
       }
     }
   }

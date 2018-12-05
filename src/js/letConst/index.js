@@ -4,8 +4,6 @@ import Vue from 'vue'
 import LetConst from '../../components/letConst/Index.vue'
 // import '../../css/cmui.css'
 
-
-
 // Vue.config.productionTip = false
 
 // import common from '../../assets/common.js';
@@ -13,6 +11,14 @@ import LetConst from '../../components/letConst/Index.vue'
 // Vue.config.productionTip = false;
 
 /* eslint-disable no-new */
+
+var d = {
+        a : 10
+      }
+var a = {
+	icon : typeof d
+}
+console.log(typeof d);
 new Vue({
   el: '#letConst',
   // router,
